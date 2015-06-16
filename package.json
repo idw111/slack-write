@@ -1,0 +1,28 @@
+{
+  "name": "slack-post",
+  "version": "0.1.0",
+  "description": "Post some contents to slack with a bot account",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idw111/slack-post.git"
+  },
+  "keywords": [
+    "slack",
+    "post",
+    "write",
+    "request"
+  ],
+  "author": "Dongwon Lim <idw111@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idw111/slack-post/issues"
+  },
+  "homepage": "https://github.com/idw111/slack-post",
+  "devDependencies": {
+    "request": "^2.57.0"
+  }
+}
