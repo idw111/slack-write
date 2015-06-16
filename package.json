@@ -1,6 +1,6 @@
 {
   "name": "slack-write",
-  "version": "0.1.5",
+  "version": "0.1.7",
   "description": "Write to slack",
   "main": "index.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/idw111/slack-post.git"
+    "url": "https://github.com/idw111/slack-write.git"
   },
   "keywords": [
-    "slack",
+    "slack",f
     "post",
     "write",
     "request"
@@ -19,9 +19,9 @@
   "author": "Dongwon Lim <idw111@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idw111/slack-post/issues"
+    "url": "https://github.com/idw111/slack-write/issues"
   },
-  "homepage": "https://github.com/idw111/slack-post",
+  "homepage": "https://github.com/idw111/slack-write",
   "dependencies": {
     "request": "^2.57.0"
   }
