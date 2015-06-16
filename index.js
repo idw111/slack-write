@@ -3,22 +3,20 @@ var request = require('request');
 
 var slack = {
 	
-	post: function(text, slack, done) {
-		slack = {
-			token: 'xoxp-2740269050-2740285888-4808485483-12040d',
-			channel: 'C052HSNP2',
-			username: 'Test'
-		};
+	write: function(text, options, done) {
+		slack.post(text, options, done);
+	},
+
+	post: function(text, options, done) {
 		var params = {
-			token: slack.token, 
-			channel: slack.channel, 
-			username: slack.username,
+			token: options.token, 
+			channel: options.channel, 
+			username: options.username,
 			text: text
 		};
 		var url = 'https://slack.com/api/chat.postMessage?' + querystring.stringify(params);
-		request.get({url: url, json: true}, function() {
-			console.log(arguments);
-			return done();
+		request.get({url: url, json: true}, function(err, res, result) {
+			return done(err, result);
 		});
 	}
 

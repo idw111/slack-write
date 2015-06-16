@@ -1,7 +1,7 @@
 {
-  "name": "slack-post",
-  "version": "0.1.0",
-  "description": "Post some contents to slack with a bot account",
+  "name": "slack-write",
+  "version": "0.1.5",
+  "description": "Write to slack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,7 +22,7 @@
     "url": "https://github.com/idw111/slack-post/issues"
   },
   "homepage": "https://github.com/idw111/slack-post",
-  "devDependencies": {
+  "dependencies": {
     "request": "^2.57.0"
   }
 }
