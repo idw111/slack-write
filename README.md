@@ -26,9 +26,9 @@ slack.write('Some text', options, function(err, result) {
 
 MIT © [Dongwon Lim]()
 
-[npm-image]: https://badge.fury.io/js/hangul-disassemble.svg
-[npm-url]: https://npmjs.org/package/hangul-disassemble
-[travis-image]: https://travis-ci.org/idw111/hangul-disassemble.svg?branch=master
-[travis-url]: https://travis-ci.org/idw111/hangul-disassemble
-[daviddm-image]: https://david-dm.org/idw111/hangul-disassemble.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/idw111/hangul-disassemble
+[npm-image]: https://badge.fury.io/js/slack-write.svg
+[npm-url]: https://npmjs.org/package/slack-write
+[travis-image]: https://travis-ci.org/idw111/slack-write.svg?branch=master
+[travis-url]: https://travis-ci.org/idw111/slack-write
+[daviddm-image]: https://david-dm.org/idw111/slack-write.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/idw111/slack-write
