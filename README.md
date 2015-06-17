@@ -1,3 +1,7 @@
+#  [![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
+
+> write on slack
+
 ## Usage
 1. Add a slackbot integration, and get a token (https://your-team-name.slack.com/services/new/slackbot)
 2. Get a channel id from slack
@@ -16,3 +20,15 @@ slack.write('Some text', options, function(err, result) {
 	console.log(err, result);
 });
 ```
+
+
+## License
+
+MIT © [Dongwon Lim]()
+
+[npm-image]: https://badge.fury.io/js/hangul-disassemble.svg
+[npm-url]: https://npmjs.org/package/hangul-disassemble
+[travis-image]: https://travis-ci.org/idw111/hangul-disassemble.svg?branch=master
+[travis-url]: https://travis-ci.org/idw111/hangul-disassemble
+[daviddm-image]: https://david-dm.org/idw111/hangul-disassemble.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/idw111/hangul-disassemble
