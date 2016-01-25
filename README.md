@@ -10,13 +10,14 @@
 
 ## Example
 ```javascript
-var slack = require('slack-write');
 var options = {
 	token: 'slack-bot-token',
 	channel: 'CXXXXXXX',
 	username: 'Writer Name'
 };
-slack.write('Some text', options, function(err, result) {
+var slack = require('slack-write')(options);
+
+slack.write('Some text', function(err, result) {
 	console.log(err, result);
 });
 ```
