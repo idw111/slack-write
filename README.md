@@ -1,5 +1,4 @@
-[![NPM version][npm-image]][npm-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
+# [![NPM version][npm-image]][npm-url] [![dependencies Status][daviddm-image]][daviddm-url]
 > write on slack
 
 ## Usage
@@ -27,7 +26,7 @@ slack.write('Some text', function(err, result) {
 
 MIT © [Dongwon Lim](idw111@gmail.com)
 
-[npm-image]: https://badge.fury.io/js/slack-write.svg
+[npm-image]: https://img.shields.io/npm/v/slack-write.svg
 [npm-url]: https://npmjs.org/package/slack-write
-[daviddm-image]: https://david-dm.org/idw111/slack-write.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/idw111/slack-write/status.svg
 [daviddm-url]: https://david-dm.org/idw111/slack-write
