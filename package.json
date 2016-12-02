@@ -1,6 +1,6 @@
 {
   "name": "slack-write",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Write to slack",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,9 @@
   "homepage": "https://github.com/idw111/slack-write",
   "dependencies": {
     "request": "^2.57.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
   }
 }

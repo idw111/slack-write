@@ -12,20 +12,22 @@ function slackWrite(options) {
 		options,
 
 		write: function(text, done) {
-			slack.post('', text, '', options, done);
+			slack.post(text, null, options, done);
 		},
 
-		attach: function(title, text, pretext, done) {
-			slack.post(title, text, pretext, options, done);
+		attach: function(text, attachment, done) {
+			slack.post(text, [attachment], options, done);
 		},
 
-		post: function(title, text, pretext, _options, done) {
+		attachMultiple: function(text, attachments, done) {
+			slack.post(text, attachments, options, done);
+		}, 
+
+		post: function(text, attachments, _options, done) {
 			var params = _options;
-			if (!title || !pretext) {
-				params['text'] = text;
-			}
-			else {
-				params['attachments'] = [{title: title, text: text, pretext: pretext}];
+			params['text'] = text;
+			if (!!attachments) {
+				params['attachments'] = JSON.stringify(attachments);
 			}
 			var url = 'https://slack.com/api/chat.postMessage?' + querystring.stringify(params);
 			request.get({url: url, json: true}, function(err, res, result) {
