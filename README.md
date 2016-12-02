@@ -2,10 +2,10 @@
 > write on slack
 
 ## Usage
-1. Add a slackbot integration, and get a token (https://your-team-name.slack.com/services/new/slackbot)
-2. Get a channel id from slack (https://api.slack.com/methods/channels.list/test)
+1. Add a slackbot integration, and get a token ([https://your-team-name.slack.com/services/new/slackbot](https://your-team-name.slack.com/services/new/slackbot))
+2. Get a channel id from slack ([https://your-team-name.slack.com/services/new/slackbot](https://api.slack.com/methods/channels.list/test))
 3. You can pass anything to username
-4. You can use slack message formatting (https://api.slack.com/docs/formatting)
+4. You can use slack message formatting ([https://api.slack.com/docs/formatting](https://api.slack.com/docs/formatting))
 
 ## Example
 ```javascript
