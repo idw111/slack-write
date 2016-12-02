@@ -10,7 +10,7 @@ const slack = slackWrite(channel);
 describe('slack-write', function() {
     
 
-    it('should write plain text', function(done) {
+    it('should be capable of posting a plain text', function(done) {
         slack.write('testing...', (err, result) => {
             expect(result).to.be.an('object');
             expect(result.ok).to.be.ok();
@@ -19,7 +19,7 @@ describe('slack-write', function() {
         });
     });
 
-    it('should write attachments', function(done) {
+    it('should be capable of posting an attachment', function(done) {
         slack.attach('testing...', {
             pretext: 'pretext',
             title: 'title',
